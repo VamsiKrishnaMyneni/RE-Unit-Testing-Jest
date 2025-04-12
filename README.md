@@ -40,7 +40,4 @@ npx playwright test
 - Keep tests deterministic and independent.
 - Use mocks/stubs where external services are involved.
 - Continuously monitor test coverage and aim for meaningful assertions.
-
----
-
-Let me know if you want this tailored to a specific framework like React, Next.js, or Angular, or if you'd like to include setup instructions!
+ 
