@@ -43,3 +43,8 @@ npx playwright test
 TDD is a software development practice where tests are written even before the code is written.
 
 Once the tests are written the code is written to ensure the tests are passed.
+
+The 3 phases of TDD (also called red-green testing)
+ 1. Create tests that verify the functionality of specific feature
+ 2. Write software code that will run the tests successfully when tests are re-executed.
+ 3. Refactor the code for optimiztion while ensuring the tests continue to pass.
