@@ -1,8 +1,4 @@
-Sure! Here's a clean and concise **README** section for the **Testing** part of your project, covering **E2E**, **Integration**, and **Unit Testing**:
-
----
-
-## 🧪 Testing
+ ## 🧪 Testing
 
 Our project uses a combination of **Unit**, **Integration**, and **End-to-End (E2E)** testing to ensure code reliability, maintainability, and overall application stability.
 
