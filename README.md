@@ -39,12 +39,12 @@ npx playwright test
 
 ---
 
-### ✅ Best Practices
-- Write tests for new features before or during development.
-- Keep tests deterministic and independent.
-- Use mocks/stubs where external services are involved.
-- Continuously monitor test coverage and aim for meaningful assertions.
+# TDD (Test Driven Development)
+TDD is a software development practice where tests are written even before the code is written.
 
----
+Once the tests are written the code is written to ensure the tests are passed.
 
-Let me know if you want this tailored to a specific framework like React, Next.js, or Angular, or if you'd like to include setup instructions!
+The 3 phases of TDD (also called red-green testing)
+ 1. Create tests that verify the functionality of specific feature
+ 2. Write software code that will run the tests successfully when tests are re-executed.
+ 3. Refactor the code for optimiztion while ensuring the tests continue to pass.
