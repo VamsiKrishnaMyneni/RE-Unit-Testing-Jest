@@ -5,7 +5,7 @@ function Greet(props: GreetProps) {
     return (
         <>
             <h4>The king in the north</h4>
-            <h3> {name}</h3>
+            <h3> {name ? name : 'stark'}</h3>
         </>
     )
 }
