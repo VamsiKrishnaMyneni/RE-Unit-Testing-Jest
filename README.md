@@ -41,4 +41,5 @@ npx playwright test
 
 # TDD (Test Driven Development)
 TDD is a software development practice where tests are written even before the code is written.
+
 Once the tests are written the code is written to ensure the tests are passed.
