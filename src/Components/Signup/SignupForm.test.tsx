@@ -8,6 +8,9 @@ describe("SignUpForm", () => {
         render(<SignupForm />);
         const nameText = screen.getByText('Signup Form');
         expect(nameText).toBeInTheDocument();
+
+        const nameIp = screen.getByTestId('name');
+        expect(nameIp).toBeInTheDocument();
     })
 
 })

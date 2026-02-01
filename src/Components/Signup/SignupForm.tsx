@@ -23,6 +23,7 @@ const SignupForm = () => {
                 <div>
                     <label className="block text-gray-700">Name</label>
                     <input
+                        data-testid="name"
                         type="text"
                         name="name"
                         value={formData.name}
