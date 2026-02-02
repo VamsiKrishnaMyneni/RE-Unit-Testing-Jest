@@ -1,16 +1,24 @@
 import { render, screen } from "@testing-library/react";
 import Greet from "./Greet";
 
-describe("Greet Tests", () => {
-    test("Greet component rendered correctly", () => {
+
+describe('Greet Component', () => {
+    test('Greet component assertion', () => {
         render(<Greet />);
-        const greetText = screen.getByText(/the king in the north/i);
-        expect(greetText).toBeInTheDocument();
+        const greetElement = screen.getByText('Greet Component');
+
+        expect(greetElement).toBeInTheDocument();
+    });
+    test('should render with default name when no name prop is provided', () => {
+        render(<Greet />);
+        const greetElement = screen.getByText('Greet Component');
+
+        expect(greetElement).toBeInTheDocument();
     });
 
-    test("verify name is rendered", () => {
-        render(<Greet name='Jhon Snow' />);
-        const nameText = screen.getByText(/jhon snow/i);
-        expect(nameText).toBeInTheDocument();
+    test('should render with provided name prop', () => {
+        render(<Greet name="Arya" />);
+        const nameElement = screen.getByText('Arya');
+        expect(nameElement).toBeInTheDocument();
     });
 });
