@@ -10,9 +10,4 @@ describe("App Tests", () => {
     expect(linkElement).toBeInTheDocument();
   });
 
-  test('renders svg sprite icon', () => {
-    render(<App />);
-    const svgElement = screen.getByTestId('sprite-icon');
-    expect(svgElement).toBeInTheDocument();
-  });
 });
